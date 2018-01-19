@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Plotter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Plotter.res" /d "NDEBUG" "D:\VCPP\Plotter\Plotter.rc"" 
+Creating temporary file "C:\DOCUME~1\anish\LOCALS~1\Temp\RSP330.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Plotter.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VCPP\Plotter\Lex.cpp"
+"D:\VCPP\Plotter\Parse.cpp"
+"D:\VCPP\Plotter\PlotFrame.cpp"
+"D:\VCPP\Plotter\PlotRangeDlg.cpp"
+"D:\VCPP\Plotter\Plotter.cpp"
+"D:\VCPP\Plotter\PlotterDlg.cpp"
+"D:\VCPP\Plotter\Stack.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\anish\LOCALS~1\Temp\RSP330.tmp" 
+Creating temporary file "C:\DOCUME~1\anish\LOCALS~1\Temp\RSP331.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Plotter.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VCPP\Plotter\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\anish\LOCALS~1\Temp\RSP331.tmp" 
+Creating temporary file "C:\DOCUME~1\anish\LOCALS~1\Temp\RSP332.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Plotter.pdb" /machine:I386 /out:"Release/Plotter.exe" 
+.\Release\Lex.obj
+.\Release\Parse.obj
+.\Release\PlotFrame.obj
+.\Release\PlotRangeDlg.obj
+.\Release\Plotter.obj
+.\Release\PlotterDlg.obj
+.\Release\Stack.obj
+.\Release\StdAfx.obj
+.\Release\Plotter.res
+]
+Creating command line "link.exe @C:\DOCUME~1\anish\LOCALS~1\Temp\RSP332.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Lex.cpp
+Parse.cpp
+PlotFrame.cpp
+PlotRangeDlg.cpp
+Plotter.cpp
+PlotterDlg.cpp
+Stack.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Plotter.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

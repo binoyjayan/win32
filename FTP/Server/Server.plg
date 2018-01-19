@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Server - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\binoy\LOCALS~1\Temp\RSP25.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Server.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VCPP\Sock\Win\FTP\Server\ChildView.cpp"
+"D:\VCPP\Sock\Win\FTP\Server\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\binoy\LOCALS~1\Temp\RSP25.tmp" 
+Creating command line "link.exe Ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Server.pdb" /machine:I386 /out:"Release/Server.exe"  .\Release\ChildView.obj .\Release\MainFrm.obj .\Release\Server.obj .\Release\StdAfx.obj .\Release\Server.res "
+<h3>Output Window</h3>
+Compiling...
+ChildView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Server.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
