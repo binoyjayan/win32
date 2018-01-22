@@ -1,0 +1,17 @@
+<head>
+<base> <isindex> <link> <meta> <object> <script> <style> <title>
+<meta content="c, c++" name="keywords">
+</head>
+
+
+<link href="">	 for stylesheets
+
+<!-- comment -->
+
+<a href="">
+<img src="">
+<frame src="">
+<embed src="">
+<object data="datafile. eg. image/video" >
+
+<form action>
